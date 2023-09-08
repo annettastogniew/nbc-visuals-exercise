@@ -1,6 +1,30 @@
+@font-face {
+  font-family: merriweather-bold;
+  src: url(https://cdn.glitch.global/05768625-d411-4ae9-98a4-764040f49568/Merriweather-Bold.ttf?v=1694200474042);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(https://cdn.glitch.global/05768625-d411-4ae9-98a4-764040f49568/Roboto-Regular.ttf?v=1694200570141);
+}
+
 body {
   background-color: #071723;
   color: #ffffff;
+  font-family: roboto;
+  font-size: 1.05em;
+}
+
+h1 {
+  font-family: merriweather-bold;
+  margin-bottom: 0.75em;
+}
+
+h2 {
+  font-family: merriweather-bold;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
 }
 
 /* Style the button that is used to open and close the collapsible content */
