@@ -29,46 +29,48 @@ h2 {
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: #58c9f7;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: #40b6e3;
+  text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: #40b6e3;
+  text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: #40b6e3;
+  text-decoration: none;
 }
 
 .footer {
   margin-top: 1.5em;
   padding-top: 0.25em;
-  border-top: 1px solid #D3D3D3;
+  border-top: 1px solid #ffffff;
 }
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: none;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: #144163;
 }
 
 /* Style the collapsible content. Note: hidden by default */
