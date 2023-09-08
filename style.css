@@ -27,25 +27,21 @@ h2 {
   margin-bottom: 0.75em;
 }
 
-/* unvisited link */
 a:link {
   color: #58c9f7;
   text-decoration: none;
 }
 
-/* visited link */
 a:visited {
   color: #40b6e3;
   text-decoration: none;
 }
 
-/* mouse over link */
 a:hover {
   color: #40b6e3;
   text-decoration: none;
 }
 
-/* selected link */
 a:active {
   color: #40b6e3;
   text-decoration: none;
@@ -59,25 +55,37 @@ a:active {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: none;
+  background-color: #071723;
+  color: #ffffff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
+  border-bottom: 1px solid #58c9f7;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #144163;
 }
 
-/* Style the collapsible content. Note: hidden by default */
+.collapsible:after {
+  content: '\02795';
+  color: #ffffff;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
+  border-bottom: 1px solid #58c9f7;
 }
 
 .chart-background {
