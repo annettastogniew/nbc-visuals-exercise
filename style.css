@@ -1,4 +1,7 @@
-
+body {
+  background-color: #071723;
+  color: #ffffff;
+}
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -27,4 +30,5 @@
 
 .chart-background {
   background: #ffffff;
+  padding: 1em;
 }
